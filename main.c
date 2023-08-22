@@ -22,7 +22,7 @@
 								    
 								    
 		do{
-		printf("===== DIGITE UMA DAS OP«’ES ABAIXO =====\n");
+		printf("===== DIGITE UMA DAS OP√á√ïES ABAIXO =====\n");
 								    	
 		printf("1- Vender Ingresso\n");
 		printf("2- Listar Ingressos Vendidos\n");
@@ -34,9 +34,9 @@
 								
 			switch(opcao){				    		
 				case 1:{
-				system("cls"); // Limpa caracteres que j· foram impressos anteriormente //
+				system("cls"); // Limpa caracteres que j√° foram impressos anteriormente //
 														
-				printf("===== OP«√O VENDA DE INGRESSOS =====\n");
+				printf("===== OP√á√ÉO VENDA DE INGRESSOS =====\n");
 							
 				struct Ingresso novoIngresso;
 							 
@@ -59,14 +59,14 @@
 				totalIngressosVendidos++;
 								               
 				printf("Venda Realizada com Sucesso!\n\n");
-				system("pause"); // Aguarda uma resposta do ˙suario para continuar //
-				system("cls"); // Limpa caracteres que j· foram impressos anteriormente //
+				system("pause"); // Aguarda uma resposta do usu√°rio para continuar //
+				system("cls"); // Limpa caracteres que j√° foram impressos anteriormente //
 				break;
 			
 			}
 						
 				case 2:{
-				system("cls"); // Limpa caracteres que j· foram impressos anteriormente //
+				system("cls"); // Limpa caracteres que j√° foram impressos anteriormente //
 				printf(" LISTA DE INGRESSOS VENDIDOS:\n");
 								
 				    if (totalIngressosVendidos == 0) {
@@ -82,14 +82,14 @@
 					    printf("\n");
 					        }
 					    }
-					    system("pause"); // Aguarda uma resposta do ˙suario para continuar //
-				         system("cls"); // Limpa caracteres que j· foram impressos anteriormente //
+					    system("pause"); // Aguarda uma resposta do usu√°rio para continuar //
+				         system("cls"); // Limpa caracteres que j√° foram impressos anteriormente //
 				break; 
 				}
 								
 				case 3: {
-				system("cls"); // Limpa caracteres que j· foram impressos anteriormente //
-			    printf("===== OPC√O DE VALIDA«√O =====\n\n");
+				system("cls"); // Limpa caracteres que j√° foram impressos anteriormente //
+			    printf("===== OPC√ÉO DE VALIDA√á√ÉO =====\n\n");
 			
 			       char cpfIngresso[12];
 			       int ingressoEncontrado = 0;
@@ -107,16 +107,16 @@
 			            printf("Ano de Nascimento: %d\n\n", ingressosVendidos[i].anoNascimento);
 			            
 			            ingressoEncontrado = 1; 
-			            system("pause"); // Aguarda uma resposta do ˙suario para continuar //
-				        system("cls"); // Limpa caracteres que j· foram impressos anteriormente //
+			            system("pause"); // Aguarda uma resposta do usu√°rio para continuar //
+				        system("cls"); // Limpa caracteres que j√° foram impressos anteriormente //
 			            break;
 			           }
 			         }
 			         
 			        if (!ingressoEncontrado) {
-			        printf("CPF n„o encontrado.\n\n");
-			        system("pause"); // Aguarda uma resposta do ˙suario para continuar //
-				    system("cls"); // Limpa caracteres que j· foram impressos anteriormente //
+			        printf("CPF n√£o encontrado.\n\n");
+			        system("pause"); // Aguarda uma resposta do usu√°rio para continuar //
+				    system("cls"); // Limpa caracteres que j√° foram impressos anteriormente //
 			      }
 			      
 			    break;
