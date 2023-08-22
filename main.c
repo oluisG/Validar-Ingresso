@@ -44,7 +44,7 @@
 				fflush(stdin); // Limpar o buffer //
 				gets(novoIngresso.Nome);
 													    	
-			    printf("Digite o CPF do comprador:\n");
+			        printf("Digite o CPF do comprador:\n");
 				fflush(stdin); // Limpar o buffer //
 				gets(novoIngresso.cpf);
 							
@@ -63,7 +63,7 @@
 				system("cls"); // Limpa caracteres que já foram impressos anteriormente //
 				break;
 			
-			}
+			       }
 						
 				case 2:{
 				system("cls"); // Limpa caracteres que já foram impressos anteriormente //
@@ -89,7 +89,7 @@
 								
 				case 3: {
 				system("cls"); // Limpa caracteres que já foram impressos anteriormente //
-			    printf("===== OPCÃO DE VALIDAÇÃO =====\n\n");
+			        printf("===== OPCÃO DE VALIDAÇÃO =====\n\n");
 			
 			       char cpfIngresso[12];
 			       int ingressoEncontrado = 0;
